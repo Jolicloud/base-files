@@ -1,9 +1,9 @@
 Source: base-files
 Section: admin
 Priority: required
-Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Santiago Vila <sanvila@debian.org>
-Standards-Version: 3.7.2
+Maintainer: Jolicloud developers <developers@jolicloud.org>
+XSBC-Original-Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>, Santiago Vila <sanvila@debian.org>
+Standards-Version: 3.8.0
 
 Package: base-files
 Provides: base
@@ -18,9 +18,3 @@ Description: Debian base system miscellaneous files
  several important miscellaneous files, such as /etc/debian_version,
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, /etc/nsswitch.conf,
  and others, and the text of several common licenses in use on Debian systems.
-
-Package: lsb-release-udeb
-Section: debian-installer
-Architecture: all
-Priority: extra
-Description: LSB release information
