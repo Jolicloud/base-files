@@ -5,6 +5,7 @@ etc
 etc/default
 etc/skel
 etc/profile.d
+etc/upstream-release
 home
 lib
 mnt

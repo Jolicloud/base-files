@@ -45,6 +45,7 @@ binary-arch: build
 	ln -s LGPL-3 debian/tmp/usr/share/common-licenses/LGPL
 	ln -s GPL-3 debian/tmp/usr/share/common-licenses/GPL
 	install -p -m 644 etc/* debian/tmp/etc
+	install -p -m 644 upstream-release/* debian/tmp/etc/upstream-release
 	rm -f debian/tmp/etc/motd
 ifeq ($(DEB_HOST_GNU_SYSTEM),gnu)
 	rmdir debian/tmp/proc
