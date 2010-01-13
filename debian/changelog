@@ -1,3 +1,11 @@
+base-files (6jolicloud1) robby; urgency=low
+
+  * DISTRIB_RELEASE bump in lsb-release
+  * DISTRIB_RELEASE might need to be numeric
+  * Add missing upstream-release content
+
+ -- Benjamin Ryzman <benjamin@jolicloud.org>  Wed, 13 Jan 2010 14:29:11 +0100
+
 base-files (5ubuntu4jolicloud2) robby; urgency=low
 
   * Added data about the upstream release
