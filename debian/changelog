@@ -1,3 +1,9 @@
+base-files (6jolicloud2) robby; urgency=low
+
+  * Flagged Distrib as Jolicloud 0.5 (Beta Release)
+
+ -- Adam McDaniel <adam@jolicloud.org>  Thu, 18 Mar 2010 15:17:39 -0600
+
 base-files (6jolicloud1) robby; urgency=low
 
   * DISTRIB_RELEASE bump in lsb-release
