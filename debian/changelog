@@ -1,3 +1,11 @@
+base-files (6jolicloud3) robby; urgency=low
+
+  * Update the MOTD to mention Jolicloud
+  * Set the upstream-release codename to Jaunty
+  * Set the LSB version to Jolicloud 0.9 (PreFinal)
+
+ -- Adam McDaniel <adam@jolicloud.org>  Fri, 19 Mar 2010 11:20:22 -0600
+
 base-files (6jolicloud2) robby; urgency=low
 
   * Flagged Distrib as Jolicloud 0.5 (Beta Release)
