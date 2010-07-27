@@ -1,3 +1,9 @@
+base-files (6jolicloud4) robby; urgency=low
+
+  * Upgraded robby release to v1.0
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 27 Jul 2010 12:00:04 -0600
+
 base-files (6jolicloud3) robby; urgency=low
 
   * Update the MOTD to mention Jolicloud
