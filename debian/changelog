@@ -1,3 +1,9 @@
+base-files (6jolicloud5) robby; urgency=low
+
+  * Imported Debian version 5.0.0ubuntu20.10.04.2
+
+ -- Benjamin Ryzman <benjamin@jolicloud.org>  Wed, 01 Sep 2010 11:13:04 +0200
+
 base-files (5.0.0ubuntu20.10.04.2) lucid-security; urgency=low
 
   * SECURITY UPDATE: unauthenticated software installations.
