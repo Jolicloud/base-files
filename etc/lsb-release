@@ -1,4 +1,4 @@
 DISTRIB_ID=Jolicloud
-DISTRIB_RELEASE=1.0
+DISTRIB_RELEASE=1.1
 DISTRIB_CODENAME=robby
-DISTRIB_DESCRIPTION="Jolicloud robby (v1.0 Release)"
+DISTRIB_DESCRIPTION="Jolicloud robby (v1.1 Release)"

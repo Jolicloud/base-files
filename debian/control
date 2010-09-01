@@ -12,9 +12,15 @@ Pre-Depends: awk
 Depends: base-passwd (>= 2.0.3.4), libpam-modules (>= 0.79-3ubuntu3)
 Essential: yes
 Priority: required
-Replaces: base, miscutils, lsb-release (<< 3.0-8)
+Replaces: base, miscutils, dpkg (<= 1.15.0), lsb-release (<< 3.0-8)
 Description: Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,
  /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, /etc/nsswitch.conf,
  and others, and the text of several common licenses in use on Debian systems.
+
+Package: lsb-release-udeb
+Section: debian-installer
+Architecture: all
+Priority: extra
+Description: LSB release information

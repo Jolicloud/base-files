@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if uname -r | grep -qs "\-server"; then
+	echo
+	echo "Welcome to the Ubuntu Server!"
+	echo " * Documentation:  http://www.ubuntu.com/server/doc"
+else
+	echo
+	echo "Welcome to Ubuntu!"
+	echo " * Documentation:  https://help.ubuntu.com/"
+fi
