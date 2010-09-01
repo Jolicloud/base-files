@@ -1,7 +1,7 @@
 Source: base-files
 Section: admin
 Priority: required
-Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Santiago Vila <sanvila@debian.org>
 Standards-Version: 3.7.2
 
@@ -12,7 +12,7 @@ Pre-Depends: awk
 Depends: base-passwd (>= 2.0.3.4), libpam-modules (>= 0.79-3ubuntu3)
 Essential: yes
 Priority: required
-Replaces: base, miscutils, lsb-release (<< 3.0-8)
+Replaces: base, miscutils, dpkg (<= 1.15.0), lsb-release (<< 3.0-8)
 Description: Debian base system miscellaneous files
  This package contains the basic filesystem hierarchy of a Debian system, and
  several important miscellaneous files, such as /etc/debian_version,

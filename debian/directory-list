@@ -5,6 +5,7 @@ etc
 etc/default
 etc/skel
 etc/profile.d
+etc/update-motd.d
 home
 lib
 mnt
