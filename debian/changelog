@@ -1,3 +1,10 @@
+base-files (6jolicloud6) robby; urgency=low
+
+  * Updated upstream-release to Ubuntu 10.04 (lucid)
+  * Added /etc/upstream-release back into base-files DEB package
+
+ -- Adam McDaniel <adam@jolicloud.org>  Sat, 18 Sep 2010 13:23:29 -0600
+
 base-files (6jolicloud5) robby; urgency=low
 
   * Imported Debian version 5.0.0ubuntu20.10.04.2
