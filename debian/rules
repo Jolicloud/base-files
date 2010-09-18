@@ -34,6 +34,8 @@ binary-arch: build
 	rm -rf debian/tmp
 	install -d debian/tmp/DEBIAN $(docdir) debian/tmp/etc/dpkg/origins
 	cp -a origins/* debian/tmp/etc/dpkg/origins
+	install -d debian/tmp/etc/upstream-release
+	cp -a upstream-release/* debian/tmp/etc/upstream-release
 	cd debian/tmp && install -d usr/share/$(package)
 	install -p -m 644 debian/changelog debian/FAQ \
 		debian/README.FHS $(docdir)
