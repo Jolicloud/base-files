@@ -205,7 +205,7 @@ fi
 # Dell Latitude 2110 factory pre-installed images carried a leftover apt
 # configuration snippet which disables apt's enforcing of authenticated
 # packages.
-if dpkg --compare-versions "$2" le-nl "5.0.0ubuntu20.10.04.2" &&
+if dpkg --compare-versions "$2" le-nl "5.0.0ubuntu22" &&
     [ -e /etc/apt/apt.conf.d/00secure ]; then
     md5=`md5sum /etc/apt/apt.conf.d/00secure | cut -f 1 -d\ `
     if [ "$md5" = da402e2c3a805e234ae7d20fa55580a6 ]; then
