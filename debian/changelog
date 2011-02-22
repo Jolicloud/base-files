@@ -1,3 +1,9 @@
+base-files (1:1.2.2+5l20.10.04.2) robby-1.2; urgency=low
+
+  * Rename "Jolicloud OS" to "Joli OS"
+
+ -- Adam McDaniel <adam@jolicloud.org>  Tue, 22 Feb 2011 09:06:22 -0700
+
 base-files (1:1.2.1+5l20.10.04.2) robby-1.2; urgency=low
 
   * Rename "Jolicloud" to "Jolicloud OS"
