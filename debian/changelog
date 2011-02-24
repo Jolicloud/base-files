@@ -1,3 +1,9 @@
+base-files (1:1.2.3+5l20.10.04.2) robby-1.2; urgency=low
+
+  * Set /etc/lsb-release DISTRIB_ID="Joli OS", with quotes
+
+ -- Adam McDaniel <adam@jolicloud.org>  Thu, 24 Feb 2011 09:11:22 -0700
+
 base-files (1:1.2.2+5l20.10.04.2) robby-1.2; urgency=low
 
   * Rename "Jolicloud OS" to "Joli OS"
