@@ -1,3 +1,13 @@
+base-files (1:1.2.4+5l20.10.04.2) robby-1.2; urgency=low
+
+  * Use a 'non-blocking space' in DISTRIB_ID. Quotes are not sufficient
+    for a multi-word value to satisify poorly written shell scripts
+    expecting only a single word. Fortunately bash honours words around
+    the NBS separator as a single-word value. In Vim, use Ctrl+K N S to
+    create it.
+
+ -- Adam McDaniel <adam@jolicloud.org>  Mon, 28 Feb 2011 09:27:38 -0700
+
 base-files (1:1.2.3+5l20.10.04.2) robby-1.2; urgency=low
 
   * Set /etc/lsb-release DISTRIB_ID="Joli OS", with quotes
