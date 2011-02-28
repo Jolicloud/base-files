@@ -1,4 +1,9 @@
-DISTRIB_ID="Joli OS"
+# Use a 'non-blocking space' in DISTRIB_ID. Quotes are not sufficient for a
+# multi-word value to satisify poorly written shell scripts expecting only
+# a single word. Fortunately bash honours words around the NBS separator as
+# a single-word value. In Vim, use Ctrl+K N S to create it.
+
+DISTRIB_ID="Joli OS"
 DISTRIB_RELEASE=1.2
 DISTRIB_CODENAME=robby
 DISTRIB_DESCRIPTION="Joli OS 1.2"
