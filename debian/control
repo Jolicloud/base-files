@@ -4,6 +4,9 @@ Priority: required
 Maintainer: Jolicloud developers <developers@jolicloud.org>
 XSBC-Original-Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>, Santiago Vila <sanvila@debian.org>
 Standards-Version: 3.8.0
+Vcs-Git: git://github.com/jolicloud/base-files.git
+Vcs-Browser: https://github.com/jolicloud/base-files
+
 
 Package: base-files
 Provides: base
